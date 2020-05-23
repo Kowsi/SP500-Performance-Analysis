@@ -18,8 +18,7 @@ SP500_STOCKS_FILE = 'SP_500.Characteristics.csv'
 end = datetime.datetime.now()
 start = datetime.datetime(end.year - 5, end.month , end.day)
 master_df = None
-sector_list = sp.Sector.dropna().unique().tolist()
-ticker_list = sp.index.to_list()
+
 #ticker_list.append('^GSPC')
 githublink= 'https://github.com/Kowsi/SP500-Performance-Analysis'
 pagetitle='S&P 500 Analysis'
@@ -49,6 +48,9 @@ def get_stock_data():
 
 
 sp = get_stock_data()
+sector_list = sp.Sector.dropna().unique().tolist()
+ticker_list = sp.index.to_list()
+
 
 def sector_performance_barchart(sector_df):
     
