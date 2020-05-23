@@ -43,6 +43,13 @@ def sector_performance_data():
     sector_df.fillna(0, inplace=True)
     return sector_df
 
+def get_stock_data():
+    sp = pd.read_csv('SP_500/Characteristics.csv',index_col='Ticker')
+    return sp
+
+
+sp = get_stock_data()
+
 def sector_performance_barchart(sector_df):
     
     sector_bar = []
@@ -59,9 +66,7 @@ def correlation_heatmap(sector_df):
     return corr_df_heatmap
 
 
-def get_stock_data():
-    sp = pd.read_csv('SP_500/Characteristics.csv',index_col='Ticker')
-    return sp
+
     
 def sector_count_barchart(sp):
     sector_count = sp.groupby(['Sector'])['Name'].count().to_frame('Count').sort_values('Count')
@@ -70,7 +75,6 @@ def sector_count_barchart(sp):
 
 
 
-sp = get_stock_data()
 
 def get_sector_Performance_figure():
     global sp
