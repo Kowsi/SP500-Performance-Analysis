@@ -34,7 +34,7 @@ Link to application  - [S&P 500 Analysis](https://sp500-performance-analysis.her
   
    #### Stock Performance
 
-   Here We are analysis each stocks using Beta (5 Years monthly) value which helps to find the better performing stock in each sector. 
+   Here We analyzed each stocks using Beta (5 Years monthly) value which helps to find the better performing stock in each sector. 
     
    > **Beta is a measure of a stock's volatility in relation to the overall market**
     
