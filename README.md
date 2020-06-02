@@ -58,16 +58,17 @@ Written on top of Flask, Plotly.js, and React.js, Dash is ideal for building dat
 
 Here We created Dash Framework for building application and Plotly for data visualization.
 
-
 ## Heroku
 
 [Heroku](https://www.heroku.com) is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud. Application is delopyed in Heroku helps for each visualization
 
 #### [S&P 500 Analysis](https://sp500-performance-analysis.herokuapp.com/)
 
-
 ## Package Used:
 
 * Pandas Datareader
 * Plotly
 * Dash
+* Data source - Alpha Vantage and Yahoo Finance (YFinance)
+
+---
