@@ -27,7 +27,7 @@ Link to application  - [S&P 500 Analysis](https://sp500-performance-analysis.her
    ![Stock under Sector](images/stocks_under_sector.png)
    
     
-  Here we analysised each sectors performance under S&P 500 over the period of one Year. We could easily see `Information Technology` is consistently performing well where as `Energy sector` is not performing well.
+  Below, We analyzed each sectors performance under S&P 500 over the period of one Year. We could easily see `Information Technology` is consistently performing well where as `Energy sector` is not performing well.
   
   ![Sector Performance](images/sector_performance.png)
 
